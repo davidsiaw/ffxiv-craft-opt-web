@@ -51,13 +51,15 @@ function Crafter(cls, level, craftsmanship, control, craftPoints, specialist, ac
     }
 }
 
-function Recipe(baseLevel, level, difficulty, durability, startQuality, maxQuality) {
+function Recipe(baseLevel, level, difficulty, durability, startQuality, maxQuality, sctrl, scraft) {
     this.baseLevel = baseLevel;
     this.level = level;
     this.difficulty = difficulty;
     this.durability = durability;
     this.startQuality = startQuality;
     this.maxQuality = maxQuality;
+    this.sctrl = sctrl;
+    this.scraft = scraft;
 }
 
 function Synth(crafter, recipe, maxTrickUses, reliabilityIndex, useConditions, maxLength) {
@@ -69,12 +71,12 @@ function Synth(crafter, recipe, maxTrickUses, reliabilityIndex, useConditions, m
     this.maxLength = maxLength;
 }
 
-Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craftsmanship, crafterLevel, recipeLevel) {
-    return Math.floor(getLevelDifferenceFactor('craftsmanship', levelDifference) * (0.21 * craftsmanship + 2) * (10000 + craftsmanship)) / (10000 + SuggestedCraftsmanship[recipeLevel])
+Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craftsmanship, crafterLevel, recipeLevel, scraft) {
+    return Math.floor(getLevelDifferenceFactor('craftsmanship', levelDifference) * (0.17 * craftsmanship - 3) * (10000 + craftsmanship)) / (10000 + scraft)
 };
 
-Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, control, crafterLevel, recipeLevel) {
-    return Math.floor(getLevelDifferenceFactor('control', levelDifference) * (0.35 * control + 35) * (10000 + control)) / (10000 + SuggestedControl[recipeLevel])
+Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, control, crafterLevel, recipeLevel, sctrl) {
+    return Math.floor(getLevelDifferenceFactor('control', levelDifference) * (0.22 * control - 2) * (10000 + control)) / (10000 + sctrl)
 };
 
 function isActionEq(action1, action2) {
@@ -248,7 +250,8 @@ function ApplyModifiers(s, action, condition) {
     }
 
     // Since game version 5.0, effects increasing control are capped at crafter's original control + 3000
-    control = Math.min(control, s.synth.crafter.control + 3000);
+    // 5.2 no more cap
+    //control = Math.min(control, s.synth.crafter.control + 3000);
 
     // Effects modifying level difference
     var effCrafterLevel = getEffectiveCrafterLevel(s.synth);
@@ -333,14 +336,13 @@ function ApplyModifiers(s, action, condition) {
 
 
     // Effects modifying progress
-    var bProgressGain = s.synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, s.synth.recipe.level);
+    var bProgressGain = s.synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, s.synth.recipe.level, s.synth.recipe.scraft);
 
     // Effects modifying quality
-    var bQualityGain = s.synth.calculateBaseQualityIncrease(levelDifference, control, effCrafterLevel, s.synth.recipe.level);
+    var bQualityGain = s.synth.calculateBaseQualityIncrease(levelDifference, control, effCrafterLevel, s.synth.recipe.level, s.synth.recipe.sctrl);
 
     if (AllActions.innovation.shortName in s.effects.countDowns) {
         bQualityGain += Math.floor(0.5 * bQualityGain);
-        //bProgressGain +=  Math.floor(0.2 * bProgressGain);
     }
 
     bProgressGain = progressIncreaseMultiplier * bProgressGain;
@@ -1414,7 +1416,7 @@ function heuristicSequenceBuilder(synth) {
 
     // Determine base progress
     var levelDifference = effCrafterLevel - effRecipeLevel;
-    var bProgressGain = synth.calculateBaseProgressIncrease(levelDifference, synth.crafter.craftsmanship, effCrafterLevel, effRecipeLevel);
+    var bProgressGain = synth.calculateBaseProgressIncrease(levelDifference, synth.crafter.craftsmanship, effCrafterLevel, effRecipeLevel, synth.recipe.scraft);
     var progressGain =  bProgressGain;
     progressGain *= aa[preferredAction].progressIncreaseMultiplier;
     progressGain = Math.floor(progressGain);
@@ -1614,64 +1616,6 @@ var LevelTable = {
     78: 415,
     79: 418,
     80: 420 
-};
-
-var Ing1RecipeLevelTable = {
-    40: 36,
-    41: 36,
-    42: 37,
-    43: 38,
-    44: 39,
-    45: 40,
-    46: 41,
-    47: 42,
-    48: 43,
-    49: 44,
-    50: 45,
-    55: 50,     // 50_1star     *** unverified
-    70: 51,     // 50_2star     *** unverified
-    90: 58,     // 50_3star     *** unverified
-    110: 59,    // 50_4star     *** unverified
-    115: 100,   // 51 @ 169/339 difficulty
-    120: 101,   // 51 @ 210/410 difficulty
-    125: 102,   // 52
-    130: 110,   // 53
-    133: 111,   // 54
-    136: 112,   // 55
-    139: 126,   // 56
-    142: 131,   // 57
-    145: 134,   // 58
-    148: 137,   // 59
-    150: 140,   // 60
-    160: 151,   // 60_1star
-    180: 152,   // 60_2star
-    210: 153,   // 60_3star
-    220: 153,   // 60_3star
-    250: 154,   // 60_4star
-    255: 238,   // 61 @ 558/1116 difficulty
-    260: 240,   // 61 @ 700/1400 difficulty
-    265: 242,   // 62
-    270: 250,   // 63
-    273: 251,   // 64
-    276: 252,   // 65
-    279: 266,   // 66
-    282: 271,   // 67
-    285: 274,   // 68
-    288: 277,   // 69
-    290: 280,   // 70
-    300: 291,   // 70_1star
-    320: 292,   // 70_2star
-    350: 293,   // 70_3star
-    390: 365,   // 71
-    395: 375,   // 72
-    400: 385,   // 73 
-    403: 393,   // 74 
-    406: 396,   // 75 
-    409: 399,   // 76 
-    412: 402,   // 77 
-    415: 405,   // 78 
-    418: 408,   // 79 
-    420: 411,   // 80
 };
 
 var ProgressPenaltyTable = {
@@ -2603,16 +2547,16 @@ var SuggestedControl = {
 
 var LevelDifferenceFactors = {
     'craftsmanship': {
-        '-10': 0.75,
-        '-9': 0.77,
-        '-8': 0.8,
-        '-7': 0.82,
-        '-6': 0.85,
-        '-5': 0.87,
-        '-4': 0.9,
-        '-3': 0.92,
-        '-2': 0.95,
-        '-1': 0.97,
+        '-10': 1,
+        '-9': 1,
+        '-8': 1,
+        '-7': 1,
+        '-6': 1,
+        '-5': 1,
+        '-4': 1,
+        '-3': 1,
+        '-2': 1,
+        '-1': 1,
         0: 1,
         1: 1.05,
         2: 1.1,
@@ -2636,16 +2580,16 @@ var LevelDifferenceFactors = {
         20: 1.5
     },
     'control': {
-        '-10': 0.5,
-        '-9': 0.55,
-        '-8': 0.6,
-        '-7': 0.65,
-        '-6': 0.7,
-        '-5': 0.75,
-        '-4': 0.8,
-        '-3': 0.85,
-        '-2': 0.9,
-        '-1': 0.95,
+        '-10': 1,
+        '-9': 1,
+        '-8': 1,
+        '-7': 1,
+        '-6': 1,
+        '-5': 1,
+        '-4': 1,
+        '-3': 1,
+        '-2': 1,
+        '-1': 1,
         0: 1,
         1: 1,
         2: 1,
