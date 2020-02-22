@@ -14,7 +14,6 @@
 
   var extraActionInfo = {
     basicSynth: {                                        skillID: {"Alchemist": 100090, "Armorer": 100030, "Blacksmith": 100015, "Carpenter": 100001, "Culinarian": 100105, "Goldsmith": 100075, "Leatherworker": 100045, "Weaver": 100060} },
-    standardSynthesis: {                                 skillID: {"Alchemist": 100096, "Armorer": 100037, "Blacksmith": 100021, "Carpenter": 100007, "Culinarian": 100111, "Goldsmith": 100080, "Leatherworker": 100051, "Weaver": 100067} },
     carefulSynthesis: {        common: true,             skillID: {"Weaver": 100063} },
     rapidSynthesis: {          common: true,             skillID: {"Armorer": 100033} },
     basicTouch: {                                        skillID: {"Alchemist": 100091, "Armorer": 100031, "Blacksmith": 100016, "Carpenter": 100002, "Culinarian": 100106, "Goldsmith": 100076, "Leatherworker": 100046, "Weaver": 100061} },
@@ -26,7 +25,10 @@
     wasteNot2: {               common: true, buff: true, skillID: {"Leatherworker": 285} },
     manipulation: {            common: true, buff: true, skillID: {"Goldsmith": 278} },
     innerQuiet: {              common: true, buff: true, skillID: {"Alchemist": 258, "Armorer": 254, "Blacksmith": 253, "Carpenter": 252, "Culinarian": 259, "Goldsmith": 255, "Leatherworker": 257, "Weaver": 256} },
-    ingenuity: {               common: true, buff: true, skillID: {"Blacksmith": 277} },
+    //ingenuity: {               common: true, buff: true, skillID: {"Blacksmith": 277} },
+
+    finalAppraisal: {          common: true, buff: true, skillID: {"Alchemist": 19018, "Armorer": 19014, "Blacksmith": 19013, "Carpenter": 19012, "Culinarian": 19019, "Goldsmith": 19015, "Leatherworker": 19016, "Weaver": 19017} },
+
     greatStrides: {            common: true, buff: true, skillID: {"Alchemist": 266, "Armorer": 262, "Blacksmith": 261, "Carpenter": 260, "Culinarian": 267, "Goldsmith": 263, "Leatherworker": 265, "Weaver": 264} },
     innovation: {              common: true, buff: true, skillID: {"Goldsmith": 284} },
     tricksOfTheTrade: {        common: true,             skillID: {"Alchemist": 100098} },
@@ -39,7 +41,6 @@
     nameOfTheElements: {       common: true, buff: true, skillID: {"Alchemist": 0, "Armorer": 0, "Blacksmith": 0, "Carpenter": 0, "Culinarian": 0, "Goldsmith": 0, "Leatherworker": 0, "Weaver": 0} },
 
     // Stormblood
-    rapidSynthesis2: {         common: true,             skillID: {"Alchemist": 100217, "Armorer": 100213, "Blacksmith": 100212, "Carpenter": 100211, "Culinarian": 100218, "Goldsmith": 100214, "Leatherworker": 100215, "Weaver": 100216} },
     patientTouch: {                                      skillID: {"Alchemist": 100225, "Armorer": 100221, "Blacksmith": 100220, "Carpenter": 100219, "Culinarian": 100226, "Goldsmith": 100222, "Leatherworker": 100223, "Weaver": 100224} },
     prudentTouch: {                                      skillID: {"Alchemist": 100233, "Armorer": 100229, "Blacksmith": 100228, "Carpenter": 100227, "Culinarian": 100234, "Goldsmith": 100230, "Leatherworker": 100231, "Weaver": 100232} },
     focusedSynthesis: {                                  skillID: {"Alchemist": 100241, "Armorer": 100237, "Blacksmith": 100236, "Carpenter": 100235, "Culinarian": 100242, "Goldsmith": 100238, "Leatherworker": 100239, "Weaver": 100240} },
@@ -70,6 +71,7 @@
     nameOfLightning: true,
     nameOfWater: true,
     nameOfWind: true,
+    ingenuity: true,
   };
 
   var actionsByName = {};
@@ -108,10 +110,8 @@
     {
       name: "Synthesis", actions: [
       "basicSynth",
-      "standardSynthesis",
       "carefulSynthesis",
       "rapidSynthesis",
-      "rapidSynthesis2",
       "focusedSynthesis",
       "delicateSynthesis",
       "intensiveSynthesis",
@@ -149,7 +149,7 @@
     {
       name: "Buffs", actions: [
       "innerQuiet",
-      "ingenuity",
+      "finalAppraisal",
       "greatStrides",
       "innovation",
       "reflect",

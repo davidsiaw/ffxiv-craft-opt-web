@@ -259,28 +259,28 @@ function ApplyModifiers(s, action, condition) {
     var recipeLevel = effRecipeLevel;
     var stars = s.synth.recipe.stars;
 
-    if (AllActions.ingenuity.shortName in s.effects.countDowns) {
-        if (levelDifference < 0 && recipeLevel >= 390) {
-            const cap = Math.abs(originalLevelDifference) <= 100 ? -5 : -20;
-            levelDifference = Math.max(levelDifference + Math.floor(recipeLevel / 8), cap);
-        } else {
-            // Shadowbringers
-            if (recipeLevel >= 390) {
-                levelDifference += Math.floor(recipeLevel / 21.5);
-            } else {
-                if (recipeLevel === 290) {
-                    levelDifference += 10;
-                } else if (recipeLevel === 300) {
-                    levelDifference += 9;
-                } else if (recipeLevel >= 120) {
-                    levelDifference += 11;
-                } else {
-                    levelDifference += 5;
-                }
-                levelDifference = Math.max(levelDifference, -1 * (stars || 5));
-            }
-        }
-    }
+    //if (AllActions.ingenuity.shortName in s.effects.countDowns) {
+    //    if (levelDifference < 0 && recipeLevel >= 390) {
+    //        const cap = Math.abs(originalLevelDifference) <= 100 ? -5 : -20;
+    //        levelDifference = Math.max(levelDifference + Math.floor(recipeLevel / 8), cap);
+    //    } else {
+    //        // Shadowbringers
+    //        if (recipeLevel >= 390) {
+    //            levelDifference += Math.floor(recipeLevel / 21.5);
+    //        } else {
+    //            if (recipeLevel === 290) {
+    //                levelDifference += 10;
+    //            } else if (recipeLevel === 300) {
+    //                levelDifference += 9;
+    //            } else if (recipeLevel >= 120) {
+    //                levelDifference += 11;
+    //            } else {
+    //                levelDifference += 5;
+    //            }
+    //            levelDifference = Math.max(levelDifference, -1 * (stars || 5));
+    //        }
+    //    }
+    //}
 
     // Effects modfiying probability
     var successProbability = action.successProbability;
@@ -339,15 +339,11 @@ function ApplyModifiers(s, action, condition) {
     var bQualityGain = s.synth.calculateBaseQualityIncrease(levelDifference, control, effCrafterLevel, s.synth.recipe.level);
 
     if (AllActions.innovation.shortName in s.effects.countDowns) {
-        bQualityGain += Math.floor(0.2 * bQualityGain);
-        bProgressGain +=  Math.floor(0.2 * bProgressGain);
+        bQualityGain += Math.floor(0.5 * bQualityGain);
+        //bProgressGain +=  Math.floor(0.2 * bProgressGain);
     }
 
     bProgressGain = progressIncreaseMultiplier * bProgressGain;
-    if (isActionEq(action, AllActions.flawlessSynthesis)) {
-        bProgressGain = 40;
-    }
-
     bQualityGain = qualityIncreaseMultiplier * bQualityGain;
 
     if (isActionEq(action, AllActions.trainedEye)) {
@@ -392,6 +388,19 @@ function ApplyModifiers(s, action, condition) {
     // Effects modifying cp cost
     var cpCost = action.cpCost;
 
+    var maxProgress = s.synth.recipe.difficulty;
+
+    // Cannot allow progress to go past 100%
+    if (bProgressGain + s.progressState > maxProgress)
+    {
+        // Final Appraisal caps the progress to one shy
+        if (AllActions.finalAppraisal.shortName in s.effects.countDowns)
+        {
+            bProgressGain = maxProgress - s.progressState - 1;
+            delete s.effects.countDowns[AllActions.finalAppraisal.shortName];
+        }
+    }
+
     return {
         craftsmanship: craftsmanship,
         control: control,
@@ -423,6 +432,13 @@ function ApplySpecialActionEffects(s, action, condition) {
     // Effect management
     //==================================
     // Special Effect Actions
+
+    // final appraisal does not actually cause anything to happen
+    if (isActionEq(action, AllActions.finalAppraisal))
+    {
+        return;
+    }
+
     if (isActionEq(action, AllActions.mastersMend)) {
         s.durabilityState += 30;
     }
@@ -464,21 +480,24 @@ function ApplySpecialActionEffects(s, action, condition) {
     if (isActionEq(action, AllActions.innovation.shortName) && (AllActions.innovation.shortName in s.effects.countDowns)) {
         s.wastedActions += 1
     }
-    if (isActionEq(action, AllActions.ingenuity.shortName) && (AllActions.ingenuity.shortName in s.effects.countDowns)) {
-        s.wastedActions += 1
-    }
+    //if (isActionEq(action, AllActions.ingenuity.shortName) && (AllActions.ingenuity.shortName in s.effects.countDowns)) {
+    //    s.wastedActions += 1
+    //}
 }
 
 function UpdateEffectCounters(s, action, condition, successProbability) {
     // STEP_03
     // Countdown / Countup Management
     //===============================
-    // Decrement countdowns
-    for (var countDown in s.effects.countDowns) {
-        s.effects.countDowns[countDown] -= 1;
+    // Decrement countdowns unless its final appraisal
+    if (!isActionEq(action, AllActions.finalAppraisal))
+    {
+        for (var countDown in s.effects.countDowns) {
+            s.effects.countDowns[countDown] -= 1;
 
-        if (s.effects.countDowns[countDown] === 0) {
-            delete s.effects.countDowns[countDown];
+            if (s.effects.countDowns[countDown] === 0) {
+                delete s.effects.countDowns[countDown];
+            }
         }
     }
 
@@ -614,7 +633,10 @@ function simSynth(individual, startState, assumeSuccess, verbose, debug, logOutp
 
         // Occur regardless of dummy actions
         //==================================
-        s.step += 1;
+        if (!isActionEq(action, AllActions.finalAppraisal))
+        {
+            s.step += 1;
+        }
 
         // Condition Calculation
         var condQualityIncreaseMultiplier = 1;
@@ -724,7 +746,10 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
     };
 
     // Initialize counters
-    s.step += 1;
+    if (!isActionEq(action, AllActions.finalAppraisal))
+    {
+        s.step += 1;
+    }
 
     // Condition Evaluation
     var condQualityIncreaseMultiplier = 1;
