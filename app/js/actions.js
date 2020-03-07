@@ -49,6 +49,7 @@ var AllActions = {
     innovation: new Action(         'innovation',           'Innovation',            0,     18,  1.0, 0.0, 0.0, 'countdown',   4,  'All',          26),
     greatStrides: new Action(       'greatStrides',         'Great Strides',         0,     32,  1.0, 0.0, 0.0, 'countdown',   3,  'All',          21),
     //ingenuity: new Action(          'ingenuity',            'Ingenuity',             0,     22,  1.0, 0.0, 0.0, 'countdown',   5,  'All',          15),
+    veneration: new Action(         'veneration',           'Veneration',            0,     18,  1.0, 0.0, 0.0, 'countdown',   4,  'All',          15),
 
     finalAppraisal: new Action(     'finalAppraisal',       'Final Appraisal',       0,      1,  1.0, 0.0, 0.0, 'countdown',     5,  'All',          42),
 
@@ -69,6 +70,8 @@ var AllActions = {
 
     // ShadowBringers actions
     preparatoryTouch: new Action(   'preparatoryTouch',     'Preparatory Touch',    20,     40,  1.0, 2.0, 0.0, 'immediate',   1,  'All',          71),
+    groundwork: new Action(         'groundwork',           'Groundwork',           20,     18,  1.0, 0.0, 2.0, 'immediate',   1,  'All',          72),
+
     //reuse: new Action(              'reuse',                'Reuse',                 0,     60,  0.0, 0.0, 0.0, 'immediate',   1,  'All',          74),
     delicateSynthesis: new Action(  'delicateSynthesis',    'Delicate Synthesis',   10,     32,  1.0, 1.0, 1.0, 'immediate',   1,  'All',          76),
     intensiveSynthesis: new Action( 'intensiveSynthesis',   'Intensive Synthesis',  10,      6,  1.0, 0.0, 3.0, 'immediate',   1,  'All',          78,  true,       true),

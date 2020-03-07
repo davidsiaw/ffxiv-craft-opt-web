@@ -344,6 +344,9 @@ function ApplyModifiers(s, action, condition) {
     if (AllActions.innovation.shortName in s.effects.countDowns) {
         bQualityGain += Math.floor(0.5 * bQualityGain);
     }
+    if (AllActions.veneration.shortName in s.effects.countDowns) {
+        bProgressGain += Math.floor(0.5 * bProgressGain);
+    }
 
     bProgressGain = progressIncreaseMultiplier * bProgressGain;
     bQualityGain = qualityIncreaseMultiplier * bQualityGain;
@@ -483,9 +486,9 @@ function ApplySpecialActionEffects(s, action, condition) {
     if (isActionEq(action, AllActions.innovation.shortName) && (AllActions.innovation.shortName in s.effects.countDowns)) {
         s.wastedActions += 1
     }
-    //if (isActionEq(action, AllActions.ingenuity.shortName) && (AllActions.ingenuity.shortName in s.effects.countDowns)) {
-    //    s.wastedActions += 1
-    //}
+    if (isActionEq(action, AllActions.veneration.shortName) && (AllActions.veneration.shortName in s.effects.countDowns)) {
+        s.wastedActions += 1
+    }
 }
 
 function UpdateEffectCounters(s, action, condition, successProbability) {
@@ -1404,8 +1407,8 @@ function heuristicSequenceBuilder(synth) {
     }
     var effRecipeLevel = synth.recipe.level;
 
-    if ((effCrafterLevel < effRecipeLevel) && tryAction('ingenuity')) {
-        pushAction(subSeq1, 'ingenuity');
+    if ((effCrafterLevel < effRecipeLevel) && tryAction('veneration')) {
+        pushAction(subSeq1, 'veneration');
     }
 
     // If Careful Synthesis 1 is available, use it

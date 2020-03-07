@@ -53,6 +53,9 @@
     delicateSynthesis: {                                 skillID: {"Alchemist": 100329, "Armorer": 100325, "Blacksmith": 100324, "Carpenter": 100323, "Culinarian": 100330, "Goldsmith": 100326, "Leatherworker": 100327, "Weaver": 100328} },
     intensiveSynthesis: {                                skillID: {"Alchemist": 100321, "Armorer": 100317, "Blacksmith": 100316, "Carpenter": 100315, "Culinarian": 100322, "Goldsmith": 100318, "Leatherworker": 100319, "Weaver": 100320} },
     trainedEye: {              common: true,             skillID: {"Alchemist": 100289, "Armorer": 100285, "Blacksmith": 100284, "Carpenter": 100283, "Culinarian": 100290, "Goldsmith": 100286, "Leatherworker": 100287, "Weaver": 100288} },
+    
+    veneration: {              common: true,             skillID: {"Alchemist": 19297,  "Armorer": 19298,  "Blacksmith": 19299,  "Carpenter": 19300,  "Culinarian": 19301,  "Goldsmith": 19302,  "Leatherworker": 19303,  "Weaver": 19304 } },
+    groundwork: {                                        skillID: {"Alchemist": 19305 } },
 
     observe: {                 common: true,             skillID: {"Alchemist": 100099, "Armorer": 100040, "Blacksmith": 100023, "Carpenter": 100010, "Culinarian": 100113, "Goldsmith": 100082, "Leatherworker": 100053, "Weaver": 100070} }
   };
@@ -130,6 +133,7 @@
       "patientTouch",
       "prudentTouch",
       "preparatoryTouch",
+      "groundwork",
       "trainedEye"
     ]
     },
@@ -151,6 +155,7 @@
       "innerQuiet",
       "finalAppraisal",
       "greatStrides",
+      "veneration",
       "innovation",
       "reflect",
       "nameOfTheElements"//,
