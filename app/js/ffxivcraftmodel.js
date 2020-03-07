@@ -398,6 +398,7 @@ function ApplyModifiers(s, action, condition) {
         // Final Appraisal caps the progress to one shy
         if (AllActions.finalAppraisal.shortName in s.effects.countDowns)
         {
+            s.wastedActions += 1;
             bProgressGain = maxProgress - s.progressState - 1;
             delete s.effects.countDowns[AllActions.finalAppraisal.shortName];
         }
