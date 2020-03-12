@@ -971,7 +971,7 @@ label.disabled {
 
 .tab-content {
   color: #ddd;
-  background: #333;
+  background: #222;
 }
 
 .tab-pane {
@@ -1024,4 +1024,8 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
   background: #111;
   border-color: #111;
   color: #eee;
+}
+
+li .ng-isolate-scope-hover {
+  background: #444;
 }
