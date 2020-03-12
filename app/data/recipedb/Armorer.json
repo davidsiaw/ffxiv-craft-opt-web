@@ -1634,6 +1634,25 @@
     "stars": 0
   },
   {
+    "baseLevel": 20,
+    "difficulty": 74,
+    "durability": 60,
+    "id": "11992",
+    "level": 20,
+    "maxQuality": 1263,
+    "sctrl": 47,
+    "scraft": 94,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Steel Plate (Patch 5.2)",
+      "de": "Grade 2 Skybuilders' Steel Plate (Patch 5.2)",
+      "en": "Grade 2 Skybuilders' Steel Plate (Patch 5.2)",
+      "fr": "Grade 2 Skybuilders' Steel Plate (Patch 5.2)",
+      "ja": "Grade 2 Skybuilders' Steel Plate (Patch 5.2)",
+      "ko": "Grade 2 Skybuilders' Steel Plate (Patch 5.2)"
+    },
+    "stars": 0
+  },
+  {
     "baseLevel": 21,
     "difficulty": 75,
     "durability": 70,
@@ -3872,6 +3891,25 @@
       "fr": "Skybuilders' Rivets (Patch 5.1)",
       "ja": "Skybuilders' Rivets (Patch 5.1)",
       "ko": "Skybuilders' Rivets (Patch 5.1)"
+    },
+    "stars": 0
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 60,
+    "id": "11994",
+    "level": 40,
+    "maxQuality": 4100,
+    "sctrl": 68,
+    "scraft": 136,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Rivets (Patch 5.2)",
+      "de": "Grade 2 Skybuilders' Rivets (Patch 5.2)",
+      "en": "Grade 2 Skybuilders' Rivets (Patch 5.2)",
+      "fr": "Grade 2 Skybuilders' Rivets (Patch 5.2)",
+      "ja": "Grade 2 Skybuilders' Rivets (Patch 5.2)",
+      "ko": "Grade 2 Skybuilders' Rivets (Patch 5.2)"
     },
     "stars": 0
   },
@@ -11818,6 +11856,25 @@
     "stars": 0
   },
   {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
+    "id": "12002",
+    "level": 150,
+    "maxQuality": 15702,
+    "sctrl": 553,
+    "scraft": 587,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Still (Patch 5.2)",
+      "de": "Grade 2 Skybuilders' Still (Patch 5.2)",
+      "en": "Grade 2 Skybuilders' Still (Patch 5.2)",
+      "fr": "Grade 2 Skybuilders' Still (Patch 5.2)",
+      "ja": "Grade 2 Skybuilders' Still (Patch 5.2)",
+      "ko": "Grade 2 Skybuilders' Still (Patch 5.2)"
+    },
+    "stars": 0
+  },
+  {
     "baseLevel": 61,
     "difficulty": 1116,
     "durability": 80,
@@ -12739,12 +12796,12 @@
     "sctrl": 1005,
     "scraft": 1037,
     "name": {
-      "cn": "Hingan Kura-zukuri Fence (Patch 4.1)",
-      "de": "Hingan Kura-zukuri Fence (Patch 4.1)",
-      "en": "Hingan Kura-zukuri Fence (Patch 4.1)",
-      "fr": "Hingan Kura-zukuri Fence (Patch 4.1)",
-      "ja": "Hingan Kura-zukuri Fence (Patch 4.1)",
-      "ko": "Hingan Kura-zukuri Fence (Patch 4.1)"
+      "cn": "Hingan Fence (Kura-zukuri) (Patch 4.1)",
+      "de": "Hingan Fence (Kura-zukuri) (Patch 4.1)",
+      "en": "Hingan Fence (Kura-zukuri) (Patch 4.1)",
+      "fr": "Hingan Fence (Kura-zukuri) (Patch 4.1)",
+      "ja": "Hingan Fence (Kura-zukuri) (Patch 4.1)",
+      "ko": "Hingan Fence (Kura-zukuri) (Patch 4.1)"
     },
     "stars": 0
   },
@@ -14968,6 +15025,25 @@
       "fr": "Skybuilders' Counter (Patch 5.1)",
       "ja": "Skybuilders' Counter (Patch 5.1)",
       "ko": "Skybuilders' Counter (Patch 5.1)"
+    },
+    "stars": 0
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 60,
+    "id": "12034",
+    "level": 290,
+    "maxQuality": 32860,
+    "sctrl": 1055,
+    "scraft": 1079,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Mesail (Patch 5.2)",
+      "de": "Grade 2 Skybuilders' Mesail (Patch 5.2)",
+      "en": "Grade 2 Skybuilders' Mesail (Patch 5.2)",
+      "fr": "Grade 2 Skybuilders' Mesail (Patch 5.2)",
+      "ja": "Grade 2 Skybuilders' Mesail (Patch 5.2)",
+      "ko": "Grade 2 Skybuilders' Mesail (Patch 5.2)"
     },
     "stars": 0
   },
@@ -17310,6 +17386,25 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 9181,
+    "durability": 60,
+    "id": "12042",
+    "level": 481,
+    "maxQuality": 64862,
+    "sctrl": 2206,
+    "scraft": 2484,
+    "name": {
+      "cn": "Grade 2 Expert Skybuilders' Practice Materials (Patch 5.2)",
+      "de": "Grade 2 Expert Skybuilders' Practice Materials (Patch 5.2)",
+      "en": "Grade 2 Expert Skybuilders' Practice Materials (Patch 5.2)",
+      "fr": "Grade 2 Expert Skybuilders' Practice Materials (Patch 5.2)",
+      "ja": "Grade 2 Expert Skybuilders' Practice Materials (Patch 5.2)",
+      "ko": "Grade 2 Expert Skybuilders' Practice Materials (Patch 5.2)"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 6178,
     "durability": 70,
     "id": "11786",
@@ -17343,6 +17438,44 @@
       "fr": "Rank VIII Artisan's Fragile Practice Materials (Patch 5.2)",
       "ja": "Rank VIII Artisan's Fragile Practice Materials (Patch 5.2)",
       "ko": "Rank VIII Artisan's Fragile Practice Materials (Patch 5.2)"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 60,
+    "id": "12040",
+    "level": 430,
+    "maxQuality": 36524,
+    "sctrl": 1733,
+    "scraft": 1866,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Lamppost (Patch 5.2)",
+      "de": "Grade 2 Skybuilders' Lamppost (Patch 5.2)",
+      "en": "Grade 2 Skybuilders' Lamppost (Patch 5.2)",
+      "fr": "Grade 2 Skybuilders' Lamppost (Patch 5.2)",
+      "ja": "Grade 2 Skybuilders' Lamppost (Patch 5.2)",
+      "ko": "Grade 2 Skybuilders' Lamppost (Patch 5.2)"
+    },
+    "stars": 0
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 9181,
+    "durability": 60,
+    "id": "12041",
+    "level": 481,
+    "maxQuality": 64862,
+    "sctrl": 2206,
+    "scraft": 2484,
+    "name": {
+      "cn": "Grade 2 Artisanal Skybuilders' Fireplace (Patch 5.2)",
+      "de": "Grade 2 Artisanal Skybuilders' Fireplace (Patch 5.2)",
+      "en": "Grade 2 Artisanal Skybuilders' Fireplace (Patch 5.2)",
+      "fr": "Grade 2 Artisanal Skybuilders' Fireplace (Patch 5.2)",
+      "ja": "Grade 2 Artisanal Skybuilders' Fireplace (Patch 5.2)",
+      "ko": "Grade 2 Artisanal Skybuilders' Fireplace (Patch 5.2)"
     },
     "stars": 3
   },

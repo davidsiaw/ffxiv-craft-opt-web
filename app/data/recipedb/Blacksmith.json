@@ -2223,6 +2223,25 @@
     "stars": 0
   },
   {
+    "baseLevel": 20,
+    "difficulty": 74,
+    "durability": 60,
+    "id": "11044",
+    "level": 20,
+    "maxQuality": 1263,
+    "sctrl": 47,
+    "scraft": 94,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Alloy (Patch 5.2)",
+      "de": "Grade 2 Skybuilders' Alloy (Patch 5.2)",
+      "en": "Grade 2 Skybuilders' Alloy (Patch 5.2)",
+      "fr": "Grade 2 Skybuilders' Alloy (Patch 5.2)",
+      "ja": "Grade 2 Skybuilders' Alloy (Patch 5.2)",
+      "ko": "Grade 2 Skybuilders' Alloy (Patch 5.2)"
+    },
+    "stars": 0
+  },
+  {
     "baseLevel": 21,
     "difficulty": 75,
     "durability": 70,
@@ -4860,6 +4879,25 @@
       "fr": "Skybuilders' Nails (Patch 5.1)",
       "ja": "Skybuilders' Nails (Patch 5.1)",
       "ko": "Skybuilders' Nails (Patch 5.1)"
+    },
+    "stars": 0
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 60,
+    "id": "11046",
+    "level": 40,
+    "maxQuality": 4100,
+    "sctrl": 68,
+    "scraft": 136,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Nails (Patch 5.2)",
+      "de": "Grade 2 Skybuilders' Nails (Patch 5.2)",
+      "en": "Grade 2 Skybuilders' Nails (Patch 5.2)",
+      "fr": "Grade 2 Skybuilders' Nails (Patch 5.2)",
+      "ja": "Grade 2 Skybuilders' Nails (Patch 5.2)",
+      "ko": "Grade 2 Skybuilders' Nails (Patch 5.2)"
     },
     "stars": 0
   },
@@ -13205,6 +13243,25 @@
     "stars": 0
   },
   {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
+    "id": "11054",
+    "level": 150,
+    "maxQuality": 15702,
+    "sctrl": 553,
+    "scraft": 587,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Hammer (Patch 5.2)",
+      "de": "Grade 2 Skybuilders' Hammer (Patch 5.2)",
+      "en": "Grade 2 Skybuilders' Hammer (Patch 5.2)",
+      "fr": "Grade 2 Skybuilders' Hammer (Patch 5.2)",
+      "ja": "Grade 2 Skybuilders' Hammer (Patch 5.2)",
+      "ko": "Grade 2 Skybuilders' Hammer (Patch 5.2)"
+    },
+    "stars": 0
+  },
+  {
     "baseLevel": 61,
     "difficulty": 1116,
     "durability": 80,
@@ -13765,12 +13822,12 @@
     "sctrl": 993,
     "scraft": 1027,
     "name": {
-      "cn": "Hingan Mokuzo Fence (Patch 4.1)",
-      "de": "Hingan Mokuzo Fence (Patch 4.1)",
-      "en": "Hingan Mokuzo Fence (Patch 4.1)",
-      "fr": "Hingan Mokuzo Fence (Patch 4.1)",
-      "ja": "Hingan Mokuzo Fence (Patch 4.1)",
-      "ko": "Hingan Mokuzo Fence (Patch 4.1)"
+      "cn": "Hingan Fence (Mokuzo) (Patch 4.1)",
+      "de": "Hingan Fence (Mokuzo) (Patch 4.1)",
+      "en": "Hingan Fence (Mokuzo) (Patch 4.1)",
+      "fr": "Hingan Fence (Mokuzo) (Patch 4.1)",
+      "ja": "Hingan Fence (Mokuzo) (Patch 4.1)",
+      "ko": "Hingan Fence (Mokuzo) (Patch 4.1)"
     },
     "stars": 0
   },
@@ -16987,6 +17044,25 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 60,
+    "id": "11086",
+    "level": 290,
+    "maxQuality": 32860,
+    "sctrl": 1055,
+    "scraft": 1079,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Crosscut Saw (Patch 5.2)",
+      "de": "Grade 2 Skybuilders' Crosscut Saw (Patch 5.2)",
+      "en": "Grade 2 Skybuilders' Crosscut Saw (Patch 5.2)",
+      "fr": "Grade 2 Skybuilders' Crosscut Saw (Patch 5.2)",
+      "ja": "Grade 2 Skybuilders' Crosscut Saw (Patch 5.2)",
+      "ko": "Grade 2 Skybuilders' Crosscut Saw (Patch 5.2)"
+    },
+    "stars": 0
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 2657,
     "durability": 70,
     "id": "10744",
@@ -19951,6 +20027,25 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 9181,
+    "durability": 60,
+    "id": "11094",
+    "level": 481,
+    "maxQuality": 64862,
+    "sctrl": 2206,
+    "scraft": 2484,
+    "name": {
+      "cn": "Grade 2 Expert Skybuilders' Practice Materials (Patch 5.2)",
+      "de": "Grade 2 Expert Skybuilders' Practice Materials (Patch 5.2)",
+      "en": "Grade 2 Expert Skybuilders' Practice Materials (Patch 5.2)",
+      "fr": "Grade 2 Expert Skybuilders' Practice Materials (Patch 5.2)",
+      "ja": "Grade 2 Expert Skybuilders' Practice Materials (Patch 5.2)",
+      "ko": "Grade 2 Expert Skybuilders' Practice Materials (Patch 5.2)"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 6178,
     "durability": 70,
     "id": "10841",
@@ -19984,6 +20079,44 @@
       "fr": "Rank VIII Artisan's Fragile Practice Materials (Patch 5.2)",
       "ja": "Rank VIII Artisan's Fragile Practice Materials (Patch 5.2)",
       "ko": "Rank VIII Artisan's Fragile Practice Materials (Patch 5.2)"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 60,
+    "id": "11092",
+    "level": 430,
+    "maxQuality": 36524,
+    "sctrl": 1733,
+    "scraft": 1866,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Oven (Patch 5.2)",
+      "de": "Grade 2 Skybuilders' Oven (Patch 5.2)",
+      "en": "Grade 2 Skybuilders' Oven (Patch 5.2)",
+      "fr": "Grade 2 Skybuilders' Oven (Patch 5.2)",
+      "ja": "Grade 2 Skybuilders' Oven (Patch 5.2)",
+      "ko": "Grade 2 Skybuilders' Oven (Patch 5.2)"
+    },
+    "stars": 0
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 9181,
+    "durability": 60,
+    "id": "11093",
+    "level": 481,
+    "maxQuality": 64862,
+    "sctrl": 2206,
+    "scraft": 2484,
+    "name": {
+      "cn": "Grade 2 Artisanal Skybuilders' Chandelier (Patch 5.2)",
+      "de": "Grade 2 Artisanal Skybuilders' Chandelier (Patch 5.2)",
+      "en": "Grade 2 Artisanal Skybuilders' Chandelier (Patch 5.2)",
+      "fr": "Grade 2 Artisanal Skybuilders' Chandelier (Patch 5.2)",
+      "ja": "Grade 2 Artisanal Skybuilders' Chandelier (Patch 5.2)",
+      "ko": "Grade 2 Artisanal Skybuilders' Chandelier (Patch 5.2)"
     },
     "stars": 3
   },

@@ -118,7 +118,6 @@
       "focusedSynthesis",
       "delicateSynthesis",
       "intensiveSynthesis",
-      "muscleMemory",
       "brandOfTheElements"
     ]
     },
@@ -157,6 +156,7 @@
       "greatStrides",
       "veneration",
       "innovation",
+      "muscleMemory",
       "reflect",
       "nameOfTheElements"//,
       //"reuse"
