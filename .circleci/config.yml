@@ -8,3 +8,6 @@ jobs:
       - add_ssh_keys:
           fingerprints: "ea:5e:5f:1c:fb:e0:7c:6d:d8:ad:25:bd:75:40:9f:95"
       - run: bash .circleci/deploy.bash
+    branches:
+      only:
+        - master
