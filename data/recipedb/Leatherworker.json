@@ -2128,6 +2128,25 @@
     "stars": 0
   },
   {
+    "baseLevel": 20,
+    "difficulty": 74,
+    "durability": 60,
+    "id": "13307",
+    "level": 20,
+    "maxQuality": 1263,
+    "sctrl": 47,
+    "scraft": 94,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Leather (Patch 5.2)",
+      "de": "Grade 2 Skybuilders' Leather (Patch 5.2)",
+      "en": "Grade 2 Skybuilders' Leather (Patch 5.2)",
+      "fr": "Grade 2 Skybuilders' Leather (Patch 5.2)",
+      "ja": "Grade 2 Skybuilders' Leather (Patch 5.2)",
+      "ko": "Grade 2 Skybuilders' Leather (Patch 5.2)"
+    },
+    "stars": 0
+  },
+  {
     "baseLevel": 21,
     "difficulty": 112,
     "durability": 70,
@@ -4442,6 +4461,25 @@
       "fr": "Skybuilders' Leather Straps (Patch 5.1)",
       "ja": "Skybuilders' Leather Straps (Patch 5.1)",
       "ko": "Skybuilders' Leather Straps (Patch 5.1)"
+    },
+    "stars": 0
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 60,
+    "id": "13309",
+    "level": 40,
+    "maxQuality": 4100,
+    "sctrl": 68,
+    "scraft": 136,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Leather Straps (Patch 5.2)",
+      "de": "Grade 2 Skybuilders' Leather Straps (Patch 5.2)",
+      "en": "Grade 2 Skybuilders' Leather Straps (Patch 5.2)",
+      "fr": "Grade 2 Skybuilders' Leather Straps (Patch 5.2)",
+      "ja": "Grade 2 Skybuilders' Leather Straps (Patch 5.2)",
+      "ko": "Grade 2 Skybuilders' Leather Straps (Patch 5.2)"
     },
     "stars": 0
   },
@@ -10687,12 +10725,12 @@
     "sctrl": 502,
     "scraft": 539,
     "name": {
-      "cn": "Fur-lined Dhalmelskin boots",
-      "de": "Fur-lined Dhalmelskin boots",
-      "en": "Fur-lined Dhalmelskin boots",
-      "fr": "Fur-lined Dhalmelskin boots",
-      "ja": "Fur-lined Dhalmelskin boots",
-      "ko": "Fur-lined Dhalmelskin boots"
+      "cn": "Fur-lined Dhalmelskin Boots",
+      "de": "Fur-lined Dhalmelskin Boots",
+      "en": "Fur-lined Dhalmelskin Boots",
+      "fr": "Fur-lined Dhalmelskin Boots",
+      "ja": "Fur-lined Dhalmelskin Boots",
+      "ko": "Fur-lined Dhalmelskin Boots"
     },
     "stars": 0
   },
@@ -16302,6 +16340,25 @@
     "stars": 0
   },
   {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
+    "id": "13317",
+    "level": 150,
+    "maxQuality": 15702,
+    "sctrl": 553,
+    "scraft": 587,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Rug (Patch 5.2)",
+      "de": "Grade 2 Skybuilders' Rug (Patch 5.2)",
+      "en": "Grade 2 Skybuilders' Rug (Patch 5.2)",
+      "fr": "Grade 2 Skybuilders' Rug (Patch 5.2)",
+      "ja": "Grade 2 Skybuilders' Rug (Patch 5.2)",
+      "ko": "Grade 2 Skybuilders' Rug (Patch 5.2)"
+    },
+    "stars": 0
+  },
+  {
     "baseLevel": 61,
     "difficulty": 1116,
     "durability": 80,
@@ -21546,6 +21603,25 @@
     "stars": 0
   },
   {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 60,
+    "id": "13349",
+    "level": 290,
+    "maxQuality": 32860,
+    "sctrl": 1055,
+    "scraft": 1079,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Longboots (Patch 5.2)",
+      "de": "Grade 2 Skybuilders' Longboots (Patch 5.2)",
+      "en": "Grade 2 Skybuilders' Longboots (Patch 5.2)",
+      "fr": "Grade 2 Skybuilders' Longboots (Patch 5.2)",
+      "ja": "Grade 2 Skybuilders' Longboots (Patch 5.2)",
+      "ko": "Grade 2 Skybuilders' Longboots (Patch 5.2)"
+    },
+    "stars": 0
+  },
+  {
     "baseLevel": 71,
     "difficulty": 1574,
     "durability": 40,
@@ -24359,6 +24435,25 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 9181,
+    "durability": 60,
+    "id": "13357",
+    "level": 481,
+    "maxQuality": 64862,
+    "sctrl": 2206,
+    "scraft": 2484,
+    "name": {
+      "cn": "Grade 2 Expert Skybuilders' Practice Materials (Patch 5.2)",
+      "de": "Grade 2 Expert Skybuilders' Practice Materials (Patch 5.2)",
+      "en": "Grade 2 Expert Skybuilders' Practice Materials (Patch 5.2)",
+      "fr": "Grade 2 Expert Skybuilders' Practice Materials (Patch 5.2)",
+      "ja": "Grade 2 Expert Skybuilders' Practice Materials (Patch 5.2)",
+      "ko": "Grade 2 Expert Skybuilders' Practice Materials (Patch 5.2)"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 6178,
     "durability": 70,
     "id": "13129",
@@ -24392,6 +24487,44 @@
       "fr": "Rank VIII Artisan's Fragile Practice Materials (Patch 5.2)",
       "ja": "Rank VIII Artisan's Fragile Practice Materials (Patch 5.2)",
       "ko": "Rank VIII Artisan's Fragile Practice Materials (Patch 5.2)"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 60,
+    "id": "13355",
+    "level": 430,
+    "maxQuality": 36524,
+    "sctrl": 1733,
+    "scraft": 1866,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Overalls (Patch 5.2)",
+      "de": "Grade 2 Skybuilders' Overalls (Patch 5.2)",
+      "en": "Grade 2 Skybuilders' Overalls (Patch 5.2)",
+      "fr": "Grade 2 Skybuilders' Overalls (Patch 5.2)",
+      "ja": "Grade 2 Skybuilders' Overalls (Patch 5.2)",
+      "ko": "Grade 2 Skybuilders' Overalls (Patch 5.2)"
+    },
+    "stars": 0
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 9181,
+    "durability": 60,
+    "id": "13356",
+    "level": 481,
+    "maxQuality": 64862,
+    "sctrl": 2206,
+    "scraft": 2484,
+    "name": {
+      "cn": "Grade 2 Artisanal Skybuilders' Overcoat (Patch 5.2)",
+      "de": "Grade 2 Artisanal Skybuilders' Overcoat (Patch 5.2)",
+      "en": "Grade 2 Artisanal Skybuilders' Overcoat (Patch 5.2)",
+      "fr": "Grade 2 Artisanal Skybuilders' Overcoat (Patch 5.2)",
+      "ja": "Grade 2 Artisanal Skybuilders' Overcoat (Patch 5.2)",
+      "ko": "Grade 2 Artisanal Skybuilders' Overcoat (Patch 5.2)"
     },
     "stars": 3
   },
