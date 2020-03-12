@@ -13,6 +13,7 @@ cp -r app build
 cp -r ./gittemp build/.git
 pushd build
   echo crafttool.outsider.azys.la > CNAME
+  echo "Updated at `date` by the Software Deployment Node. Glory to Allag." > updatetime.html
   git add .
   git add -u
   git commit -m "update `date`"
