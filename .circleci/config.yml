@@ -11,3 +11,4 @@ jobs:
     branches:
       only:
         - master
+      ignore: gh-pages
