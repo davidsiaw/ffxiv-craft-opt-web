@@ -11770,12 +11770,12 @@
     "sctrl": 968,
     "scraft": 1006,
     "name": {
-      "cn": "Hingan Mokuzo Door (Patch 4.1)",
-      "de": "Hingan Mokuzo Door (Patch 4.1)",
-      "en": "Hingan Mokuzo Door (Patch 4.1)",
-      "fr": "Hingan Mokuzo Door (Patch 4.1)",
-      "ja": "Hingan Mokuzo Door (Patch 4.1)",
-      "ko": "Hingan Mokuzo Door (Patch 4.1)"
+      "cn": "Hingan Door (Mokuzo) (Patch 4.1)",
+      "de": "Hingan Door (Mokuzo) (Patch 4.1)",
+      "en": "Hingan Door (Mokuzo) (Patch 4.1)",
+      "fr": "Hingan Door (Mokuzo) (Patch 4.1)",
+      "ja": "Hingan Door (Mokuzo) (Patch 4.1)",
+      "ko": "Hingan Door (Mokuzo) (Patch 4.1)"
     },
     "stars": 0
   },
@@ -12834,12 +12834,12 @@
     "sctrl": 1028,
     "scraft": 1056,
     "name": {
-      "cn": "Hingan Nanpu Fence (Patch 4.1)",
-      "de": "Hingan Nanpu Fence (Patch 4.1)",
-      "en": "Hingan Nanpu Fence (Patch 4.1)",
-      "fr": "Hingan Nanpu Fence (Patch 4.1)",
-      "ja": "Hingan Nanpu Fence (Patch 4.1)",
-      "ko": "Hingan Nanpu Fence (Patch 4.1)"
+      "cn": "Hingan Fence (Nanpu) (Patch 4.1)",
+      "de": "Hingan Fence (Nanpu) (Patch 4.1)",
+      "en": "Hingan Fence (Nanpu) (Patch 4.1)",
+      "fr": "Hingan Fence (Nanpu) (Patch 4.1)",
+      "ja": "Hingan Fence (Nanpu) (Patch 4.1)",
+      "ko": "Hingan Fence (Nanpu) (Patch 4.1)"
     },
     "stars": 0
   },
@@ -16284,6 +16284,25 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "17407",
+    "level": 430,
+    "maxQuality": 9131,
+    "sctrl": 1733,
+    "scraft": 1866,
+    "name": {
+      "cn": "Mahogany Aqueduct (Patch 5.2)",
+      "de": "Mahogany Aqueduct (Patch 5.2)",
+      "en": "Mahogany Aqueduct (Patch 5.2)",
+      "fr": "Mahogany Aqueduct (Patch 5.2)",
+      "ja": "Mahogany Aqueduct (Patch 5.2)",
+      "ko": "Mahogany Aqueduct (Patch 5.2)"
+    },
+    "stars": 0
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 3474,
     "durability": 35,
     "id": "17156",
@@ -16585,6 +16604,44 @@
       "ko": "Grade 2 Artisanal Skybuilders' Wardrobe (Patch 5.2)"
     },
     "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "17154",
+    "level": 430,
+    "maxQuality": 18262,
+    "sctrl": 1733,
+    "scraft": 1866,
+    "name": {
+      "cn": "Oddly Specific Petrified Orb (Patch 5.2)",
+      "de": "Oddly Specific Petrified Orb (Patch 5.2)",
+      "en": "Oddly Specific Petrified Orb (Patch 5.2)",
+      "fr": "Oddly Specific Petrified Orb (Patch 5.2)",
+      "ja": "Oddly Specific Petrified Orb (Patch 5.2)",
+      "ko": "Oddly Specific Petrified Orb (Patch 5.2)"
+    },
+    "stars": 0
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4343,
+    "durability": 70,
+    "id": "17164",
+    "level": 430,
+    "maxQuality": 23395,
+    "sctrl": 1990,
+    "scraft": 2140,
+    "name": {
+      "cn": "Oddly Specific Shaft (Patch 5.2)",
+      "de": "Oddly Specific Shaft (Patch 5.2)",
+      "en": "Oddly Specific Shaft (Patch 5.2)",
+      "fr": "Oddly Specific Shaft (Patch 5.2)",
+      "ja": "Oddly Specific Shaft (Patch 5.2)",
+      "ko": "Oddly Specific Shaft (Patch 5.2)"
+    },
+    "stars": 2
   },
   {
     "baseLevel": 80,

@@ -10033,6 +10033,25 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "16506",
+    "level": 430,
+    "maxQuality": 9131,
+    "sctrl": 1733,
+    "scraft": 1866,
+    "name": {
+      "cn": "Devil's Salad Bowl (Patch 5.2)",
+      "de": "Devil's Salad Bowl (Patch 5.2)",
+      "en": "Devil's Salad Bowl (Patch 5.2)",
+      "fr": "Devil's Salad Bowl (Patch 5.2)",
+      "ja": "Devil's Salad Bowl (Patch 5.2)",
+      "ko": "Devil's Salad Bowl (Patch 5.2)"
+    },
+    "stars": 0
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 4560,
     "durability": 70,
     "id": "16445",
@@ -10372,6 +10391,44 @@
       "ko": "Grade 2 Artisanal Skybuilders' Quiche (Patch 5.2)"
     },
     "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "16443",
+    "level": 430,
+    "maxQuality": 18262,
+    "sctrl": 1733,
+    "scraft": 1866,
+    "name": {
+      "cn": "Oddly Specific Seed Extract (Patch 5.2)",
+      "de": "Oddly Specific Seed Extract (Patch 5.2)",
+      "en": "Oddly Specific Seed Extract (Patch 5.2)",
+      "fr": "Oddly Specific Seed Extract (Patch 5.2)",
+      "ja": "Oddly Specific Seed Extract (Patch 5.2)",
+      "ko": "Oddly Specific Seed Extract (Patch 5.2)"
+    },
+    "stars": 0
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4343,
+    "durability": 70,
+    "id": "16456",
+    "level": 430,
+    "maxQuality": 23395,
+    "sctrl": 1990,
+    "scraft": 2140,
+    "name": {
+      "cn": "Oddly Specific Seed Flour (Patch 5.2)",
+      "de": "Oddly Specific Seed Flour (Patch 5.2)",
+      "en": "Oddly Specific Seed Flour (Patch 5.2)",
+      "fr": "Oddly Specific Seed Flour (Patch 5.2)",
+      "ja": "Oddly Specific Seed Flour (Patch 5.2)",
+      "ko": "Oddly Specific Seed Flour (Patch 5.2)"
+    },
+    "stars": 2
   },
   {
     "baseLevel": 80,

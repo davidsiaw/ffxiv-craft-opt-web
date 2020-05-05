@@ -16816,6 +16816,44 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "18210",
+    "level": 430,
+    "maxQuality": 18262,
+    "sctrl": 1733,
+    "scraft": 1866,
+    "name": {
+      "cn": "Oddly Specific Synthetic Resin (Patch 5.2)",
+      "de": "Oddly Specific Synthetic Resin (Patch 5.2)",
+      "en": "Oddly Specific Synthetic Resin (Patch 5.2)",
+      "fr": "Oddly Specific Synthetic Resin (Patch 5.2)",
+      "ja": "Oddly Specific Synthetic Resin (Patch 5.2)",
+      "ko": "Oddly Specific Synthetic Resin (Patch 5.2)"
+    },
+    "stars": 0
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4343,
+    "durability": 70,
+    "id": "18227",
+    "level": 430,
+    "maxQuality": 23395,
+    "sctrl": 1990,
+    "scraft": 2140,
+    "name": {
+      "cn": "Oddly Specific Glass (Patch 5.2)",
+      "de": "Oddly Specific Glass (Patch 5.2)",
+      "en": "Oddly Specific Glass (Patch 5.2)",
+      "fr": "Oddly Specific Glass (Patch 5.2)",
+      "ja": "Oddly Specific Glass (Patch 5.2)",
+      "ko": "Oddly Specific Glass (Patch 5.2)"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 6178,
     "durability": 70,
     "id": "18236",

@@ -19495,6 +19495,25 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "10904",
+    "level": 430,
+    "maxQuality": 9131,
+    "sctrl": 1733,
+    "scraft": 1866,
+    "name": {
+      "cn": "Manor Dressing Table (Patch 5.2)",
+      "de": "Manor Dressing Table (Patch 5.2)",
+      "en": "Manor Dressing Table (Patch 5.2)",
+      "fr": "Manor Dressing Table (Patch 5.2)",
+      "ja": "Manor Dressing Table (Patch 5.2)",
+      "ko": "Manor Dressing Table (Patch 5.2)"
+    },
+    "stars": 0
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 3474,
     "durability": 35,
     "id": "10803",
@@ -20119,6 +20138,44 @@
       "ko": "Grade 2 Artisanal Skybuilders' Chandelier (Patch 5.2)"
     },
     "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "10801",
+    "level": 430,
+    "maxQuality": 18262,
+    "sctrl": 1733,
+    "scraft": 1866,
+    "name": {
+      "cn": "Oddly Specific Rivets (Patch 5.2)",
+      "de": "Oddly Specific Rivets (Patch 5.2)",
+      "en": "Oddly Specific Rivets (Patch 5.2)",
+      "fr": "Oddly Specific Rivets (Patch 5.2)",
+      "ja": "Oddly Specific Rivets (Patch 5.2)",
+      "ko": "Oddly Specific Rivets (Patch 5.2)"
+    },
+    "stars": 0
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4343,
+    "durability": 70,
+    "id": "10828",
+    "level": 430,
+    "maxQuality": 23395,
+    "sctrl": 1990,
+    "scraft": 2140,
+    "name": {
+      "cn": "Oddly Specific Fitting (Patch 5.2)",
+      "de": "Oddly Specific Fitting (Patch 5.2)",
+      "en": "Oddly Specific Fitting (Patch 5.2)",
+      "fr": "Oddly Specific Fitting (Patch 5.2)",
+      "ja": "Oddly Specific Fitting (Patch 5.2)",
+      "ko": "Oddly Specific Fitting (Patch 5.2)"
+    },
+    "stars": 2
   },
   {
     "baseLevel": 80,
