@@ -17481,6 +17481,44 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "11745",
+    "level": 430,
+    "maxQuality": 18262,
+    "sctrl": 1733,
+    "scraft": 1866,
+    "name": {
+      "cn": "Oddly Specific Wire (Patch 5.2)",
+      "de": "Oddly Specific Wire (Patch 5.2)",
+      "en": "Oddly Specific Wire (Patch 5.2)",
+      "fr": "Oddly Specific Wire (Patch 5.2)",
+      "ja": "Oddly Specific Wire (Patch 5.2)",
+      "ko": "Oddly Specific Wire (Patch 5.2)"
+    },
+    "stars": 0
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4343,
+    "durability": 70,
+    "id": "11766",
+    "level": 430,
+    "maxQuality": 23395,
+    "sctrl": 1990,
+    "scraft": 2140,
+    "name": {
+      "cn": "Oddly Specific Chainmail Sheet (Patch 5.2)",
+      "de": "Oddly Specific Chainmail Sheet (Patch 5.2)",
+      "en": "Oddly Specific Chainmail Sheet (Patch 5.2)",
+      "fr": "Oddly Specific Chainmail Sheet (Patch 5.2)",
+      "ja": "Oddly Specific Chainmail Sheet (Patch 5.2)",
+      "ko": "Oddly Specific Chainmail Sheet (Patch 5.2)"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 4343,
     "durability": 70,
     "id": "11769",

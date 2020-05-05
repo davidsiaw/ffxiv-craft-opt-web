@@ -24530,6 +24530,44 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "13087",
+    "level": 430,
+    "maxQuality": 18262,
+    "sctrl": 1733,
+    "scraft": 1866,
+    "name": {
+      "cn": "Oddly Specific Leather (Patch 5.2)",
+      "de": "Oddly Specific Leather (Patch 5.2)",
+      "en": "Oddly Specific Leather (Patch 5.2)",
+      "fr": "Oddly Specific Leather (Patch 5.2)",
+      "ja": "Oddly Specific Leather (Patch 5.2)",
+      "ko": "Oddly Specific Leather (Patch 5.2)"
+    },
+    "stars": 0
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4343,
+    "durability": 70,
+    "id": "13112",
+    "level": 430,
+    "maxQuality": 23395,
+    "sctrl": 1990,
+    "scraft": 2140,
+    "name": {
+      "cn": "Oddly Specific Vellum (Patch 5.2)",
+      "de": "Oddly Specific Vellum (Patch 5.2)",
+      "en": "Oddly Specific Vellum (Patch 5.2)",
+      "fr": "Oddly Specific Vellum (Patch 5.2)",
+      "ja": "Oddly Specific Vellum (Patch 5.2)",
+      "ko": "Oddly Specific Vellum (Patch 5.2)"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 4343,
     "durability": 70,
     "id": "13111",
