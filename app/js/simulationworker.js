@@ -1,5 +1,6 @@
 importScripts('../lib/string/String.js');
 importScripts('actions.js');
+importScripts('cld.js');
 importScripts('ffxivcraftmodel.js');
 importScripts('seededrandom.js');
 

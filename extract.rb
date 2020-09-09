@@ -13,7 +13,7 @@ class FFXIVData
   end
 
   def hash
-    @hash ||= @csv[4..-1].map do |x|
+    @hash ||= @csv[3..-1].map do |x|
       m = header[1..-1].zip(x[1..-1]).to_h
       [x[0], m]
     end.to_h
@@ -91,6 +91,7 @@ end
 recipes_csv = FFXIVData.new('../ffxiv-datamining/csv/Recipe.csv')
 lvltable_csv = FFXIVData.new('../ffxiv-datamining/csv/RecipeLevelTable.csv')
 items_csv = FFXIVData.new('../ffxiv-datamining/csv/Item.csv')
+cld_csv = FFXIVData.new('../ffxiv-datamining/csv/CraftLevelDifference.csv')
 
 rd = RecipeData.new(recipes_csv, lvltable_csv, items_csv)
 
@@ -98,3 +99,16 @@ rd = RecipeData.new(recipes_csv, lvltable_csv, items_csv)
   p rd.craftype[x]
   File.write("app/data/recipedb/#{rd.craftype[x]}.json", JSON.pretty_generate(rd.hash(x).values.sort_by{ |x| x[:baseLevel]}))
 end
+
+arrays = {
+  craftsmanship: {},
+  control: {}
+}
+cld_csv.hash.each do |id, m|
+  arrays[:craftsmanship][m['Difference']] = m['ProgressFactor']
+  arrays[:control][m['Difference']] = m['QualityFactor']
+end
+
+File.write('app/js/cld.js', <<~SCRIPT)
+var cld = #{arrays.to_json};
+SCRIPT
