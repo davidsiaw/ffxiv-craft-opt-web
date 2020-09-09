@@ -8,6 +8,7 @@ importScripts('../../lib/yagal/algorithms.js');
 
 importScripts('../seededrandom.js');
 importScripts('../actions.js');
+importScripts('../cld.js');
 importScripts('../ffxivcraftmodel.js');
 
 importScripts('easimple.js');
