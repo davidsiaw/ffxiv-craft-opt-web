@@ -326,16 +326,15 @@ function ApplyModifiers(s, action, condition) {
     // Effects modifying quality
     var bQualityGain = s.synth.calculateBaseQualityIncrease(levelDifference, control, effCrafterLevel, s.synth.recipe.level, s.synth.recipe.sctrl);
 
-    if (isActionEq(action, AllActions.muscleMemory)) {
-        if (s.step != 1) {
-            s.wastedActions += 1;
-            progressIncreaseMultiplier = 0;
-        }
-    }
-    
     bProgressGain = progressIncreaseMultiplier * action.progressIncreaseMultiplier * bProgressGain;
     bQualityGain = qualityIncreaseMultiplier * action.qualityIncreaseMultiplier * bQualityGain;
 
+    if (isActionEq(action, AllActions.muscleMemory)) {
+        if (s.step != 1) {
+            s.wastedActions += 1;
+            bProgressGain = 0;
+        }
+    }
 
     if (isActionEq(action, AllActions.trainedEye)) {
         if ((s.step == 1) && (pureLevelDifference >= 10))  {
@@ -373,6 +372,15 @@ function ApplyModifiers(s, action, condition) {
         }
         else {
             durabilityCost *= 0.5;
+        }
+    }
+
+    if (isActionEq(action, AllActions.groundwork)) {
+        // Groundwork is only half as effective if not enough dura
+        console.log(s.durabilityState, durabilityCost, s.durabilityState < durabilityCost);
+        if (s.durabilityState < durabilityCost) {
+            s.wastedActions += 1;
+            bProgressGain *= 0.5;
         }
     }
 
