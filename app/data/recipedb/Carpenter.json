@@ -1957,6 +1957,25 @@
     "stars": 0
   },
   {
+    "baseLevel": 20,
+    "difficulty": 74,
+    "durability": 60,
+    "id": "18022",
+    "level": 20,
+    "maxQuality": 1263,
+    "sctrl": 47,
+    "scraft": 94,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Plywood (Patch 5.3)",
+      "de": "Grade 3 Skybuilders' Plywood (Patch 5.3)",
+      "en": "Grade 3 Skybuilders' Plywood (Patch 5.3)",
+      "fr": "Grade 3 Skybuilders' Plywood (Patch 5.3)",
+      "ja": "Grade 3 Skybuilders' Plywood (Patch 5.3)",
+      "ko": "Grade 3 Skybuilders' Plywood (Patch 5.3)"
+    },
+    "stars": 0
+  },
+  {
     "baseLevel": 21,
     "difficulty": 37,
     "durability": 40,
@@ -4670,6 +4689,25 @@
       "fr": "Grade 2 Skybuilders' Crate (Patch 5.2)",
       "ja": "Grade 2 Skybuilders' Crate (Patch 5.2)",
       "ko": "Grade 2 Skybuilders' Crate (Patch 5.2)"
+    },
+    "stars": 0
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 60,
+    "id": "18025",
+    "level": 40,
+    "maxQuality": 4100,
+    "sctrl": 68,
+    "scraft": 136,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Crate (Patch 5.3)",
+      "de": "Grade 3 Skybuilders' Crate (Patch 5.3)",
+      "en": "Grade 3 Skybuilders' Crate (Patch 5.3)",
+      "fr": "Grade 3 Skybuilders' Crate (Patch 5.3)",
+      "ja": "Grade 3 Skybuilders' Crate (Patch 5.3)",
+      "ko": "Grade 3 Skybuilders' Crate (Patch 5.3)"
     },
     "stars": 0
   },
@@ -11628,6 +11666,25 @@
     "stars": 0
   },
   {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
+    "id": "18034",
+    "level": 150,
+    "maxQuality": 15702,
+    "sctrl": 553,
+    "scraft": 587,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Grinding Wheel (Patch 5.3)",
+      "de": "Grade 3 Skybuilders' Grinding Wheel (Patch 5.3)",
+      "en": "Grade 3 Skybuilders' Grinding Wheel (Patch 5.3)",
+      "fr": "Grade 3 Skybuilders' Grinding Wheel (Patch 5.3)",
+      "ja": "Grade 3 Skybuilders' Grinding Wheel (Patch 5.3)",
+      "ko": "Grade 3 Skybuilders' Grinding Wheel (Patch 5.3)"
+    },
+    "stars": 0
+  },
+  {
     "baseLevel": 61,
     "difficulty": 1116,
     "durability": 80,
@@ -15694,6 +15751,25 @@
     "stars": 0
   },
   {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 60,
+    "id": "18067",
+    "level": 290,
+    "maxQuality": 32860,
+    "sctrl": 1055,
+    "scraft": 1079,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Stepladder (Patch 5.3)",
+      "de": "Grade 3 Skybuilders' Stepladder (Patch 5.3)",
+      "en": "Grade 3 Skybuilders' Stepladder (Patch 5.3)",
+      "fr": "Grade 3 Skybuilders' Stepladder (Patch 5.3)",
+      "ja": "Grade 3 Skybuilders' Stepladder (Patch 5.3)",
+      "ko": "Grade 3 Skybuilders' Stepladder (Patch 5.3)"
+    },
+    "stars": 0
+  },
+  {
     "baseLevel": 71,
     "difficulty": 1574,
     "durability": 40,
@@ -17234,6 +17310,25 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "17853",
+    "level": 430,
+    "maxQuality": 9131,
+    "sctrl": 1733,
+    "scraft": 1866,
+    "name": {
+      "cn": "Oriental Wooden Deck (Patch 5.3)",
+      "de": "Oriental Wooden Deck (Patch 5.3)",
+      "en": "Oriental Wooden Deck (Patch 5.3)",
+      "fr": "Oriental Wooden Deck (Patch 5.3)",
+      "ja": "Oriental Wooden Deck (Patch 5.3)",
+      "ko": "Oriental Wooden Deck (Patch 5.3)"
+    },
+    "stars": 0
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 3474,
     "durability": 35,
     "id": "17593",
@@ -17896,6 +17991,82 @@
       "ko": "Aesthete's Ring of Gathering (Patch 5.3)"
     },
     "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4543,
+    "durability": 70,
+    "id": "17602",
+    "level": 460,
+    "maxQuality": 43590,
+    "sctrl": 2055,
+    "scraft": 2250,
+    "name": {
+      "cn": "Oddly Specific Cedar Lumber (Patch 5.3)",
+      "de": "Oddly Specific Cedar Lumber (Patch 5.3)",
+      "en": "Oddly Specific Cedar Lumber (Patch 5.3)",
+      "fr": "Oddly Specific Cedar Lumber (Patch 5.3)",
+      "ja": "Oddly Specific Cedar Lumber (Patch 5.3)",
+      "ko": "Oddly Specific Cedar Lumber (Patch 5.3)"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 70,
+    "id": "17624",
+    "level": 480,
+    "maxQuality": 51726,
+    "sctrl": 2195,
+    "scraft": 2480,
+    "name": {
+      "cn": "Oddly Specific Cedar Plank (Patch 5.3)",
+      "de": "Oddly Specific Cedar Plank (Patch 5.3)",
+      "en": "Oddly Specific Cedar Plank (Patch 5.3)",
+      "fr": "Oddly Specific Cedar Plank (Patch 5.3)",
+      "ja": "Oddly Specific Cedar Plank (Patch 5.3)",
+      "ko": "Oddly Specific Cedar Plank (Patch 5.3)"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 60,
+    "id": "18079",
+    "level": 430,
+    "maxQuality": 36524,
+    "sctrl": 1733,
+    "scraft": 1866,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Bed (Patch 5.3)",
+      "de": "Grade 3 Skybuilders' Bed (Patch 5.3)",
+      "en": "Grade 3 Skybuilders' Bed (Patch 5.3)",
+      "fr": "Grade 3 Skybuilders' Bed (Patch 5.3)",
+      "ja": "Grade 3 Skybuilders' Bed (Patch 5.3)",
+      "ko": "Grade 3 Skybuilders' Bed (Patch 5.3)"
+    },
+    "stars": 0
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 11126,
+    "durability": 50,
+    "id": "18082",
+    "level": 511,
+    "maxQuality": 82400,
+    "sctrl": 2540,
+    "scraft": 2620,
+    "name": {
+      "cn": "Grade 3 Artisanal Skybuilders' Goldsmithing Bench (Patch 5.3)",
+      "de": "Grade 3 Artisanal Skybuilders' Goldsmithing Bench (Patch 5.3)",
+      "en": "Grade 3 Artisanal Skybuilders' Goldsmithing Bench (Patch 5.3)",
+      "fr": "Grade 3 Artisanal Skybuilders' Goldsmithing Bench (Patch 5.3)",
+      "ja": "Grade 3 Artisanal Skybuilders' Goldsmithing Bench (Patch 5.3)",
+      "ko": "Grade 3 Artisanal Skybuilders' Goldsmithing Bench (Patch 5.3)"
+    },
+    "stars": 4
   },
   {
     "baseLevel": 80,
