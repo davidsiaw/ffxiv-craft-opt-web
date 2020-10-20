@@ -1900,6 +1900,25 @@
     "stars": 0
   },
   {
+    "baseLevel": 20,
+    "difficulty": 74,
+    "durability": 60,
+    "id": "17054",
+    "level": 20,
+    "maxQuality": 1263,
+    "sctrl": 47,
+    "scraft": 94,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Hemp Milk (Patch 5.3)",
+      "de": "Grade 3 Skybuilders' Hemp Milk (Patch 5.3)",
+      "en": "Grade 3 Skybuilders' Hemp Milk (Patch 5.3)",
+      "fr": "Grade 3 Skybuilders' Hemp Milk (Patch 5.3)",
+      "ja": "Grade 3 Skybuilders' Hemp Milk (Patch 5.3)",
+      "ko": "Grade 3 Skybuilders' Hemp Milk (Patch 5.3)"
+    },
+    "stars": 0
+  },
+  {
     "baseLevel": 21,
     "difficulty": 75,
     "durability": 70,
@@ -3492,6 +3511,25 @@
       "fr": "Grade 2 Skybuilders' Bread (Patch 5.2)",
       "ja": "Grade 2 Skybuilders' Bread (Patch 5.2)",
       "ko": "Grade 2 Skybuilders' Bread (Patch 5.2)"
+    },
+    "stars": 0
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 60,
+    "id": "17057",
+    "level": 40,
+    "maxQuality": 4100,
+    "sctrl": 68,
+    "scraft": 136,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Sesame Cookie (Patch 5.3)",
+      "de": "Grade 3 Skybuilders' Sesame Cookie (Patch 5.3)",
+      "en": "Grade 3 Skybuilders' Sesame Cookie (Patch 5.3)",
+      "fr": "Grade 3 Skybuilders' Sesame Cookie (Patch 5.3)",
+      "ja": "Grade 3 Skybuilders' Sesame Cookie (Patch 5.3)",
+      "ko": "Grade 3 Skybuilders' Sesame Cookie (Patch 5.3)"
     },
     "stars": 0
   },
@@ -7334,6 +7372,25 @@
     "stars": 0
   },
   {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
+    "id": "17066",
+    "level": 150,
+    "maxQuality": 15702,
+    "sctrl": 553,
+    "scraft": 587,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Tea (Patch 5.3)",
+      "de": "Grade 3 Skybuilders' Tea (Patch 5.3)",
+      "en": "Grade 3 Skybuilders' Tea (Patch 5.3)",
+      "fr": "Grade 3 Skybuilders' Tea (Patch 5.3)",
+      "ja": "Grade 3 Skybuilders' Tea (Patch 5.3)",
+      "ko": "Grade 3 Skybuilders' Tea (Patch 5.3)"
+    },
+    "stars": 0
+  },
+  {
     "baseLevel": 61,
     "difficulty": 1116,
     "durability": 80,
@@ -9766,6 +9823,25 @@
     "stars": 0
   },
   {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 60,
+    "id": "17099",
+    "level": 290,
+    "maxQuality": 32860,
+    "sctrl": 1055,
+    "scraft": 1079,
+    "name": {
+      "cn": "Grade 3 Skybuilders' All-purpose Infusion (Patch 5.3)",
+      "de": "Grade 3 Skybuilders' All-purpose Infusion (Patch 5.3)",
+      "en": "Grade 3 Skybuilders' All-purpose Infusion (Patch 5.3)",
+      "fr": "Grade 3 Skybuilders' All-purpose Infusion (Patch 5.3)",
+      "ja": "Grade 3 Skybuilders' All-purpose Infusion (Patch 5.3)",
+      "ko": "Grade 3 Skybuilders' All-purpose Infusion (Patch 5.3)"
+    },
+    "stars": 0
+  },
+  {
     "baseLevel": 71,
     "difficulty": 1574,
     "durability": 40,
@@ -11512,6 +11588,82 @@
       "ko": "Chili Crab (Patch 5.3)"
     },
     "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4543,
+    "durability": 70,
+    "id": "16831",
+    "level": 460,
+    "maxQuality": 43590,
+    "sctrl": 2055,
+    "scraft": 2250,
+    "name": {
+      "cn": "Oddly Specific Oil (Patch 5.3)",
+      "de": "Oddly Specific Oil (Patch 5.3)",
+      "en": "Oddly Specific Oil (Patch 5.3)",
+      "fr": "Oddly Specific Oil (Patch 5.3)",
+      "ja": "Oddly Specific Oil (Patch 5.3)",
+      "ko": "Oddly Specific Oil (Patch 5.3)"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 70,
+    "id": "16844",
+    "level": 480,
+    "maxQuality": 51726,
+    "sctrl": 2195,
+    "scraft": 2480,
+    "name": {
+      "cn": "Oddly Specific Paste (Patch 5.3)",
+      "de": "Oddly Specific Paste (Patch 5.3)",
+      "en": "Oddly Specific Paste (Patch 5.3)",
+      "fr": "Oddly Specific Paste (Patch 5.3)",
+      "ja": "Oddly Specific Paste (Patch 5.3)",
+      "ko": "Oddly Specific Paste (Patch 5.3)"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 60,
+    "id": "17111",
+    "level": 430,
+    "maxQuality": 36524,
+    "sctrl": 1733,
+    "scraft": 1866,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Stew (Patch 5.3)",
+      "de": "Grade 3 Skybuilders' Stew (Patch 5.3)",
+      "en": "Grade 3 Skybuilders' Stew (Patch 5.3)",
+      "fr": "Grade 3 Skybuilders' Stew (Patch 5.3)",
+      "ja": "Grade 3 Skybuilders' Stew (Patch 5.3)",
+      "ko": "Grade 3 Skybuilders' Stew (Patch 5.3)"
+    },
+    "stars": 0
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 11126,
+    "durability": 50,
+    "id": "17114",
+    "level": 511,
+    "maxQuality": 82400,
+    "sctrl": 2540,
+    "scraft": 2620,
+    "name": {
+      "cn": "Grade 3 Artisanal Skybuilders' Luncheon (Patch 5.3)",
+      "de": "Grade 3 Artisanal Skybuilders' Luncheon (Patch 5.3)",
+      "en": "Grade 3 Artisanal Skybuilders' Luncheon (Patch 5.3)",
+      "fr": "Grade 3 Artisanal Skybuilders' Luncheon (Patch 5.3)",
+      "ja": "Grade 3 Artisanal Skybuilders' Luncheon (Patch 5.3)",
+      "ko": "Grade 3 Artisanal Skybuilders' Luncheon (Patch 5.3)"
+    },
+    "stars": 4
   },
   {
     "baseLevel": 80,
