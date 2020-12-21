@@ -135,6 +135,22 @@
   },
   {
     "control_percent": 5,
+    "control_value": 56,
+    "cp_percent": 21,
+    "cp_value": 57,
+    "hq": false,
+    "id": "3a08e123ab95",
+    "name": {
+      "cn": "Chili Crab",
+      "de": "Chili Crab",
+      "en": "Chili Crab",
+      "fr": "Chili Crab",
+      "ja": "Chili Crab",
+      "ko": "Chili Crab"
+    }
+  },
+  {
+    "control_percent": 5,
     "control_value": 64,
     "cp_percent": 26,
     "cp_value": 66,
@@ -147,6 +163,22 @@
       "fr": "Bouillabaisse sanguine",
       "ja": "ブラッドブイヤベース",
       "ko": "Blood Bouillabaisse"
+    }
+  },
+  {
+    "control_percent": 6,
+    "control_value": 70,
+    "cp_percent": 26,
+    "cp_value": 72,
+    "hq": true,
+    "id": "3a08e45ab95",
+    "name": {
+      "cn": "Chili Crab",
+      "de": "Chili Crab",
+      "en": "Chili Crab",
+      "fr": "Chili Crab",
+      "ja": "Chili Crab",
+      "ko": "Chili Crab"
     }
   },
   {
