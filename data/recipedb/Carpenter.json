@@ -17445,6 +17445,63 @@
     "baseLevel": 80,
     "difficulty": 3943,
     "durability": 80,
+    "id": "18013",
+    "level": 430,
+    "maxQuality": 9131,
+    "sctrl": 1733,
+    "scraft": 1866,
+    "name": {
+      "cn": "Wood Slat Partition (Patch 5.4)",
+      "de": "Wood Slat Partition (Patch 5.4)",
+      "en": "Wood Slat Partition (Patch 5.4)",
+      "fr": "Wood Slat Partition (Patch 5.4)",
+      "ja": "Wood Slat Partition (Patch 5.4)",
+      "ko": "Wood Slat Partition (Patch 5.4)"
+    },
+    "stars": 0
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "18015",
+    "level": 430,
+    "maxQuality": 9131,
+    "sctrl": 1733,
+    "scraft": 1866,
+    "name": {
+      "cn": "Paissa Swing Chair (Patch 5.4)",
+      "de": "Paissa Swing Chair (Patch 5.4)",
+      "en": "Paissa Swing Chair (Patch 5.4)",
+      "fr": "Paissa Swing Chair (Patch 5.4)",
+      "ja": "Paissa Swing Chair (Patch 5.4)",
+      "ko": "Paissa Swing Chair (Patch 5.4)"
+    },
+    "stars": 0
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "18019",
+    "level": 430,
+    "maxQuality": 9131,
+    "sctrl": 1733,
+    "scraft": 1866,
+    "name": {
+      "cn": "Rustic Chocobo Counter (Patch 5.4)",
+      "de": "Rustic Chocobo Counter (Patch 5.4)",
+      "en": "Rustic Chocobo Counter (Patch 5.4)",
+      "fr": "Rustic Chocobo Counter (Patch 5.4)",
+      "ja": "Rustic Chocobo Counter (Patch 5.4)",
+      "ko": "Rustic Chocobo Counter (Patch 5.4)"
+    },
+    "stars": 0
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
     "id": "18009",
     "level": 430,
     "maxQuality": 9131,
@@ -17476,6 +17533,25 @@
       "fr": "Varied Wood Interior Wall (Patch 5.4)",
       "ja": "Varied Wood Interior Wall (Patch 5.4)",
       "ko": "Varied Wood Interior Wall (Patch 5.4)"
+    },
+    "stars": 0
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "18023",
+    "level": 430,
+    "maxQuality": 9131,
+    "sctrl": 1733,
+    "scraft": 1866,
+    "name": {
+      "cn": "La Noscean Grape Pergola (Patch 5.4)",
+      "de": "La Noscean Grape Pergola (Patch 5.4)",
+      "en": "La Noscean Grape Pergola (Patch 5.4)",
+      "fr": "La Noscean Grape Pergola (Patch 5.4)",
+      "ja": "La Noscean Grape Pergola (Patch 5.4)",
+      "ko": "La Noscean Grape Pergola (Patch 5.4)"
     },
     "stars": 0
   },
@@ -18521,6 +18597,25 @@
       "fr": "Silver Beech Lumber (Patch 5.4)",
       "ja": "Silver Beech Lumber (Patch 5.4)",
       "ko": "Silver Beech Lumber (Patch 5.4)"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 10049,
+    "durability": 60,
+    "id": "17782",
+    "level": 500,
+    "maxQuality": 76939,
+    "sctrl": 2540,
+    "scraft": 2620,
+    "name": {
+      "cn": "Oddly Delicate Pine Lumber (Patch 5.4)",
+      "de": "Oddly Delicate Pine Lumber (Patch 5.4)",
+      "en": "Oddly Delicate Pine Lumber (Patch 5.4)",
+      "fr": "Oddly Delicate Pine Lumber (Patch 5.4)",
+      "ja": "Oddly Delicate Pine Lumber (Patch 5.4)",
+      "ko": "Oddly Delicate Pine Lumber (Patch 5.4)"
     },
     "stars": 4
   }
