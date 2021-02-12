@@ -254,12 +254,8 @@ function ApplyModifiers(s, action, condition) {
 
     // Effects modifying control
     if (AllActions.innerQuiet.shortName in s.effects.countUps) {
-        control += (0.2 * s.effects.countUps[AllActions.innerQuiet.shortName]) * s.synth.crafter.control;
+        control += Math.floor(2 * s.effects.countUps[AllActions.innerQuiet.shortName] * s.synth.crafter.control * 0.1);
     }
-
-    // Since game version 5.0, effects increasing control are capped at crafter's original control + 3000
-    // 5.2 no more cap
-    //control = Math.min(control, s.synth.crafter.control + 3000);
 
     // Effects modifying level difference
     var effCrafterLevel = getEffectiveCrafterLevel(s.synth);
@@ -300,15 +296,28 @@ function ApplyModifiers(s, action, condition) {
         progressIncreaseMultiplier *= nameOfMultiplier;
     }
 
+
+    // Effects modifying progress
+    var bProgressGain = s.synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, s.synth.recipe.level, s.synth.recipe.scraft);
+
+    // Effects modifying quality
+    var bQualityGain = s.synth.calculateBaseQualityIncrease(levelDifference, control, effCrafterLevel, s.synth.recipe.level, s.synth.recipe.sctrl);
+    
     // Effects modifying quality increase multiplier
     var qualityIncreaseMultiplier = 1;
+    var qualityEffGain = action.qualityIncreaseMultiplier;
+
+    if (AllActions.innovation.shortName in s.effects.countDowns) {
+        qualityIncreaseMultiplier += 0.5;
+    }
 
     // We can only use Byregot actions when we have at least 2 stacks of inner quiet
     if (isActionEq(action, AllActions.byregotsBlessing)) {
         if ((AllActions.innerQuiet.shortName in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.shortName] >= 1) {
-            qualityIncreaseMultiplier += 0.2 * s.effects.countUps[AllActions.innerQuiet.shortName];
+            qualityEffGain += 0.2 * s.effects.countUps[AllActions.innerQuiet.shortName];
         } else {
-            qualityIncreaseMultiplier = 1;
+            s.wastedActions += 1;
+            qualityEffGain = 0;
         }
     }
 
@@ -316,18 +325,8 @@ function ApplyModifiers(s, action, condition) {
         qualityIncreaseMultiplier += 1;
     }
 
-    if (AllActions.innovation.shortName in s.effects.countDowns) {
-        qualityIncreaseMultiplier += 0.5;
-    }
-
-    // Effects modifying progress
-    var bProgressGain = s.synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, s.synth.recipe.level, s.synth.recipe.scraft);
-
-    // Effects modifying quality
-    var bQualityGain = s.synth.calculateBaseQualityIncrease(levelDifference, control, effCrafterLevel, s.synth.recipe.level, s.synth.recipe.sctrl);
-
     bProgressGain = progressIncreaseMultiplier * action.progressIncreaseMultiplier * bProgressGain;
-    bQualityGain = qualityIncreaseMultiplier * action.qualityIncreaseMultiplier * bQualityGain;
+    bQualityGain = qualityIncreaseMultiplier * qualityEffGain * bQualityGain;
 
     if (isActionEq(action, AllActions.muscleMemory)) {
         if (s.step != 1) {
@@ -377,7 +376,7 @@ function ApplyModifiers(s, action, condition) {
 
     if (isActionEq(action, AllActions.groundwork)) {
         // Groundwork is only half as effective if not enough dura
-        console.log(s.durabilityState, durabilityCost, s.durabilityState < durabilityCost);
+        // console.log(s.durabilityState, durabilityCost, s.durabilityState < durabilityCost);
         if (s.durabilityState < durabilityCost) {
             s.wastedActions += 1;
             bProgressGain *= 0.5;
