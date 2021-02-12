@@ -17863,6 +17863,25 @@
     "baseLevel": 80,
     "difficulty": 3943,
     "durability": 80,
+    "id": "19040",
+    "level": 430,
+    "maxQuality": 9131,
+    "sctrl": 1733,
+    "scraft": 1866,
+    "name": {
+      "cn": "Fruitful Fountain (Patch 5.4)",
+      "de": "Fruitful Fountain (Patch 5.4)",
+      "en": "Fruitful Fountain (Patch 5.4)",
+      "fr": "Fruitful Fountain (Patch 5.4)",
+      "ja": "Fruitful Fountain (Patch 5.4)",
+      "ko": "Fruitful Fountain (Patch 5.4)"
+    },
+    "stars": 0
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
     "id": "19047",
     "level": 430,
     "maxQuality": 9131,
@@ -18996,6 +19015,25 @@
       "fr": "Grade 4 Mind Alkahest (Patch 5.4)",
       "ja": "Grade 4 Mind Alkahest (Patch 5.4)",
       "ko": "Grade 4 Mind Alkahest (Patch 5.4)"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 10049,
+    "durability": 60,
+    "id": "18956",
+    "level": 500,
+    "maxQuality": 76939,
+    "sctrl": 2540,
+    "scraft": 2620,
+    "name": {
+      "cn": "Oddly Delicate Holy Water (Patch 5.4)",
+      "de": "Oddly Delicate Holy Water (Patch 5.4)",
+      "en": "Oddly Delicate Holy Water (Patch 5.4)",
+      "fr": "Oddly Delicate Holy Water (Patch 5.4)",
+      "ja": "Oddly Delicate Holy Water (Patch 5.4)",
+      "ko": "Oddly Delicate Holy Water (Patch 5.4)"
     },
     "stars": 4
   },

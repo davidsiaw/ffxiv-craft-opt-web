@@ -31,7 +31,7 @@ var AllActions = {
 
     basicSynth: new Action(         'basicSynth',           'Basic Synthesis',      10,      0,  1.0, 0.0, 1.2, 'immediate',   1,  'All',           1),
     carefulSynthesis: new Action(   'carefulSynthesis',     'Careful Synthesis',    10,      7,  1.0, 0.0, 1.5, 'immediate',   1,  'All',          62),
-    rapidSynthesis: new Action(     'rapidSynthesis',       'Rapid Synthesis',      10,      0,  0.5, 0.0, 2.5, 'immediate',   1,  'All',           9),
+    rapidSynthesis: new Action(     'rapidSynthesis',       'Rapid Synthesis',      10,      0,  0.5, 0.0, 5.0, 'immediate',   1,  'All',           9),
     flawlessSynthesis: new Action(  'flawlessSynthesis',    'Flawless Synthesis',   10,     15,  0.9, 0.0, 1.0, 'immediate',   1,  'All',          37),
 
     basicTouch: new Action(         'basicTouch',           'Basic Touch',          10,     18,  1.0, 1.0, 0.0, 'immediate',   1,  'All',           5),
@@ -74,7 +74,7 @@ var AllActions = {
 
     //reuse: new Action(              'reuse',                'Reuse',                 0,     60,  0.0, 0.0, 0.0, 'immediate',   1,  'All',          74),
     delicateSynthesis: new Action(  'delicateSynthesis',    'Delicate Synthesis',   10,     32,  1.0, 1.0, 1.0, 'immediate',   1,  'All',          76),
-    intensiveSynthesis: new Action( 'intensiveSynthesis',   'Intensive Synthesis',  10,      6,  1.0, 0.0, 3.0, 'immediate',   1,  'All',          78,  true,       true),
+    intensiveSynthesis: new Action( 'intensiveSynthesis',   'Intensive Synthesis',  10,      6,  1.0, 0.0, 4.0, 'immediate',   1,  'All',          78,  true,       true),
     trainedEye: new Action(         'trainedEye',           'Trained Eye',          10,    250,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          80),
 
 

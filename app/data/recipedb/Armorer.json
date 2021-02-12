@@ -19229,6 +19229,25 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 10049,
+    "durability": 60,
+    "id": "11947",
+    "level": 500,
+    "maxQuality": 76939,
+    "sctrl": 2540,
+    "scraft": 2620,
+    "name": {
+      "cn": "Oddly Delicate Wolfram Square (Patch 5.4)",
+      "de": "Oddly Delicate Wolfram Square (Patch 5.4)",
+      "en": "Oddly Delicate Wolfram Square (Patch 5.4)",
+      "fr": "Oddly Delicate Wolfram Square (Patch 5.4)",
+      "ja": "Oddly Delicate Wolfram Square (Patch 5.4)",
+      "ko": "Oddly Delicate Wolfram Square (Patch 5.4)"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 5543,
     "durability": 70,
     "id": "11946",

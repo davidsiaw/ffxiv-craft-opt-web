@@ -11048,12 +11048,12 @@
     "sctrl": 1733,
     "scraft": 1866,
     "name": {
-      "cn": "Takoyaki Boat (Patch 5.3)",
-      "de": "Takoyaki Boat (Patch 5.3)",
-      "en": "Takoyaki Boat (Patch 5.3)",
-      "fr": "Takoyaki Boat (Patch 5.3)",
-      "ja": "Takoyaki Boat (Patch 5.3)",
-      "ko": "Takoyaki Boat (Patch 5.3)"
+      "cn": "Tako-yaki Boat (Patch 5.3)",
+      "de": "Tako-yaki Boat (Patch 5.3)",
+      "en": "Tako-yaki Boat (Patch 5.3)",
+      "fr": "Tako-yaki Boat (Patch 5.3)",
+      "ja": "Tako-yaki Boat (Patch 5.3)",
+      "ko": "Tako-yaki Boat (Patch 5.3)"
     },
     "stars": 0
   },
@@ -12080,6 +12080,25 @@
       "fr": "Lemon Muffin (Patch 5.4)",
       "ja": "Lemon Muffin (Patch 5.4)",
       "ko": "Lemon Muffin (Patch 5.4)"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 10049,
+    "durability": 60,
+    "id": "16977",
+    "level": 500,
+    "maxQuality": 76939,
+    "sctrl": 2540,
+    "scraft": 2620,
+    "name": {
+      "cn": "Oddly Delicate Shark Oil (Patch 5.4)",
+      "de": "Oddly Delicate Shark Oil (Patch 5.4)",
+      "en": "Oddly Delicate Shark Oil (Patch 5.4)",
+      "fr": "Oddly Delicate Shark Oil (Patch 5.4)",
+      "ja": "Oddly Delicate Shark Oil (Patch 5.4)",
+      "ko": "Oddly Delicate Shark Oil (Patch 5.4)"
     },
     "stars": 4
   }

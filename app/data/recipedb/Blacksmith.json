@@ -22570,5 +22570,24 @@
       "ko": "Duraluminum Ingot (Patch 5.4)"
     },
     "stars": 4
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 10049,
+    "durability": 60,
+    "id": "10910",
+    "level": 500,
+    "maxQuality": 76939,
+    "sctrl": 2540,
+    "scraft": 2620,
+    "name": {
+      "cn": "Oddly Delicate Silver Gear (Patch 5.4)",
+      "de": "Oddly Delicate Silver Gear (Patch 5.4)",
+      "en": "Oddly Delicate Silver Gear (Patch 5.4)",
+      "fr": "Oddly Delicate Silver Gear (Patch 5.4)",
+      "ja": "Oddly Delicate Silver Gear (Patch 5.4)",
+      "ko": "Oddly Delicate Silver Gear (Patch 5.4)"
+    },
+    "stars": 4
   }
 ]
