@@ -296,7 +296,6 @@ function ApplyModifiers(s, action, condition) {
         progressIncreaseMultiplier *= nameOfMultiplier;
     }
 
-
     // Effects modifying progress
     var bProgressGain = s.synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, s.synth.recipe.level, s.synth.recipe.scraft);
 
@@ -385,6 +384,12 @@ function ApplyModifiers(s, action, condition) {
 
     // Effects modifying cp cost
     var cpCost = action.cpCost;
+
+    if (isActionEq(action, AllActions.standardTouch)) {
+        if (s.action === AllActions.basicTouch.shortName) {
+            cpCost = 18;
+        }
+    }
 
     var maxProgress = s.synth.recipe.difficulty;
 
